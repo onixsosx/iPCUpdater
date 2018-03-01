@@ -1,0 +1,2 @@
+https://github.com/performantdesign/cocoasudo
+https://stackoverflow.com/questions/15624637/from-a-bash-script-in-os-x-is-it-possible-to-prompt-for-administrator-permissio
