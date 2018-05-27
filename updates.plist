@@ -8,7 +8,7 @@
 		<key>kextcacheRebuildRequired</key>
 		<false/>
 		<key>patchName</key>
-		<string>patchUpdater</string>
+		<string>iPC</string>
 		<key>patchURL</key>
 		<string>https://github.com/onixsosx/iPCUpdater/raw/master/iPC.zip</string>
 		<key>size</key>
