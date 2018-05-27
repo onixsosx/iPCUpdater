@@ -10,7 +10,7 @@
 		<key>patchName</key>
 		<string>iPC</string>
 		<key>patchURL</key>
-		<string>https://github.com/onixsosx/iPCUpdater/raw/master/iPC.zip</string>
+		<string>https://github.com/onixsosx/iPCUpdater/blob/master/iPC.zip</string>
 		<key>size</key>
 		<string>16.3 MB</string>
 		<key>supportedMachines</key>
