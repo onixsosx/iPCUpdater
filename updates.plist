@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>This update to the Patch Updater application adds a new feature that allows you to view installed patch updates, and re-install them if you wish.</string>
+		<key>kextcacheRebuildRequired</key>
+		<false/>
+		<key>patchName</key>
+		<string>patchUpdater</string>
+		<key>patchURL</key>
+		<string>http://dosdude1.com/highsierra/patchupdates/patchUpdater.zip</string>
+		<key>size</key>
+		<string>2.3 MB</string>
+		<key>supportedMachines</key>
+		<array>
+			<string>all</string>
+		</array>
+		<key>userVisibleName</key>
+		<string>Patch Updater</string>
+		<key>version</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>
