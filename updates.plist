@@ -10,9 +10,9 @@
 		<key>patchName</key>
 		<string>patchUpdater</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/highsierra/patchupdates/patchUpdater.zip</string>
+		<string>https://github.com/onixsosx/iPCUpdater/raw/master/iPC.zip</string>
 		<key>size</key>
-		<string>2.3 MB</string>
+		<string>16.3 MB</string>
 		<key>supportedMachines</key>
 		<array>
 			<string>all</string>
