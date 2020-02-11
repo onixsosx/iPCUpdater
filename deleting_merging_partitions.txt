@@ -1,4 +1,0 @@
-
-sudo diskutil eraseVolume JHFS+  NewName /dev/disk0s3
-
-sudo diskutil mergePartitions JHFS+ WholeDisk disk0s2 disk0s3
