@@ -1,0 +1,49 @@
+cp -Rf "$OEM_DIR"/KEXT/HD3000/*.kext "$SnapShotMountPoint"/System/Library/Extensions
+cp -Rf "$OEM_DIR"/KEXT/HD3000/*.bundle "$SnapShotMountPoint"/System/Library/Extensions
+cp -Rf "$OEM_DIR"/KEXT/HD3000/*.plugin "$SnapShotMountPoint"/System/Library/Extensions
+cp -Rf "$OEM_DIR"/KEXT/HD3000/AppleGVA.framework "$SnapShotMountPoint"/System/Library/PrivateFrameworks
+
+Artifact Fix:
+
+<dict>
+                <key>Comment</key>
+                <string>HD3000 Fix</string>
+                <key>Find</key>
+                <data>
+                AQIEABAHAAAQBw ==
+                </data>
+                <key>Name</key>
+                <string>com.apple.driver.AppleIntelSNBGraphicsFB</string>
+                <key>Replace</key>
+                <data>
+                AAEEgBAHAAAQBw ==
+                </data>
+            </dict>
+            <dict>
+                <key>Comment</key>
+                <string>HD3000 384</string>
+                <key> Find </key>
+                <data>
+                0AAAABg =
+                </data>
+                <key>Name</key>
+                <string>com.apple.driver.AppleIntelSNBGraphicsFB</string>
+                <key>Replace</key>
+                <data>
+                0AAAAIA =
+                </data>
+            </dict>
+            <dict>
+                <key>Comment</key>
+                <string>HD3000 512</string>
+                <key>Find</key>
+                <data>
+                0AAAACA =
+                </data>
+                <key>Name</key>
+                <string>com.apple.driver.AppleIntelSNBGraphicsFB</string>
+                <key>Replace</key>
+                <data>
+                0AAAAIA =
+                </data>
+            </dict>
