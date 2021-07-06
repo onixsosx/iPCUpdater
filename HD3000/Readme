@@ -1,4 +1,4 @@
-sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
 chmod 644 /Library/Preferences/com.apple.security.libraryvalidation.plist
 chown root:wheel /Library/Preferences/com.apple.security.libraryvalidation.plist
 
