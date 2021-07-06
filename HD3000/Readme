@@ -1,7 +1,5 @@
-cp -Rf "$OEM_DIR"/KEXT/HD3000/*.kext "$SnapShotMountPoint"/System/Library/Extensions
-cp -Rf "$OEM_DIR"/KEXT/HD3000/*.bundle "$SnapShotMountPoint"/System/Library/Extensions
-cp -Rf "$OEM_DIR"/KEXT/HD3000/*.plugin "$SnapShotMountPoint"/System/Library/Extensions
-cp -Rf "$OEM_DIR"/KEXT/HD3000/AppleGVA.framework "$SnapShotMountPoint"/System/Library/PrivateFrameworks
+sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+
 
 Artifact Fix:
 
