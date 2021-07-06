@@ -1,3 +1,0 @@
-cp -Rf "$OEM_DIR"/KEXT/HD4000/*.kext "$SnapShotMountPoint"/System/Library/Extensions
-cp -Rf "$OEM_DIR"/KEXT/HD4000/*.bundle "$SnapShotMountPoint"/System/Library/Extensions
-cp -Rf "$OEM_DIR"/KEXT/HD4000/WebKit.framework "$SnapShotMountPoint"/System/Library/Frameworks
