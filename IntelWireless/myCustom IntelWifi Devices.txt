@@ -1,0 +1,13 @@
+Intel Corporation Wireless 7260 8086:08b2
+WIFI FIRMWARE: iwm-7260-17
+BLUETOOTH FIRMWARE: ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+Product ID:	0x07dc
+Vendor ID:	0x8087
+
+****************************************************************
+
+Intel Corporation Wireless 7265 8086:095a
+WIFI FIRMWARE: iwm-7265-17
+BLUETOOTH FIRMWARE: ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
+Product ID:	0x0a2a
+Vendor ID:	0x8087
